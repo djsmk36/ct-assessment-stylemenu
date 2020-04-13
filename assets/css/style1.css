@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
 body{
-background-image: url(../images/map-bg.jpg);
+    background-image: url(../images/map-bg.jpg);
+    background-size: cover;
+    font-family: "Lato";
+    font-size: 18px;
 }
 
 /* 
@@ -19,7 +22,7 @@ nav {font-family: "Lato";font-size: 18px;}
         - set the font size to 45px 
         - set the font color to #5d4037
 */
-.title 
+h1
 {
     font-family: "Supermercado One";
     font-size: 45px;
@@ -33,9 +36,10 @@ nav {font-family: "Lato";font-size: 18px;}
         - Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. 
 */
 #menu {
-    column-rule: 2px;
+    column-rule: 2px dashed rosybrown; 
     columns: 400px 2;
     column-gap: 100px;
+    
 }
 
 section {padding-bottom: 50px;}
@@ -82,5 +86,5 @@ address {padding: 10px;}
 */
 footer 
 {
-  border-style: dashed;color: rosybrown;
+  border: 2px dashed rosybrown
 }

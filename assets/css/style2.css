@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald');
-
+body{
+    font-family: Oswald;font-size: 14px;
+}
 /* 
     Add a CSS ruleset to accomplish the following:
     - Use the 'Oswald' font family at 14px throughout the body of the document.
@@ -16,7 +18,7 @@ nav { font-size: 14px;}
         - use a lighter weight font
 */
 h1 {
-    font-style: "Bungee Inline";
+    font-family: "Bungee Inline";
     font-size: 46px;
     font-weight: lighter;
 }
@@ -31,9 +33,9 @@ h2 {margin-top: 0;}
     Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
         - Show each of the section headings of the menu in uppercase
 */
-.starters
+.starters, h2
 {
-    font-size: uppercase;
+    text-transform: uppercase;
 }
 
 
@@ -42,8 +44,10 @@ h2 {margin-top: 0;}
         - Make the name of each menu item appear in bold 
         - set the font size to 16px
 */
-dt {
+dt .{
     display: inline;
+    font-size: 16px;
+    font: bold;
 }
 
 /* 
