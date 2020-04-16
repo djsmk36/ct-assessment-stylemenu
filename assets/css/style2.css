@@ -44,7 +44,7 @@ h2 {margin-top: 0;}
         - Make the name of each menu item appear in bold 
         - set the font size to 16px
 */
-dt .{
+dt {
     display: inline;
     font-size: 16px;
     font: bold;
